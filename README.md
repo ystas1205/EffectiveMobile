@@ -12,6 +12,25 @@
 - Запуск приложения:
   uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
 
+
+
+
+# Файл .env
+- База данных PostgreSQL
+
+POSTGRES__USER
+POSTGRES__PASSWORD
+POSTGRES__HOST
+POSTGRES__PORT
+POSTGRES__DB
+-JWT Настройки
+
+
+JWT__SECRET
+JWT__ALGORITHM
+
+
+
 # Документация
 
 После запуска приложения документация доступна по адресам:
